@@ -234,7 +234,6 @@ footer {
 /* media query */
 
 @media screen and (max-width: 720px) {
-
   nav {
     padding: 1.5rem 1rem;
   }
@@ -297,7 +296,6 @@ footer {
   .projects-title {
     margin-left: 8%;
   }
-
 }
 
 @media screen and (max-width: 420px) {
