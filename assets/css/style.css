@@ -243,7 +243,7 @@ footer {
     position: fixed;
     background: transparent;
     flex-direction: column;
-    top: 90px;
+    top: 120px;
     left: 10%;
     width: 80%;
     text-align: center;
@@ -252,7 +252,7 @@ footer {
   }
 
   nav ul li {
-    margin: 8px;
+    margin: 1px;
   }
 
   .burger-menu {
@@ -270,8 +270,9 @@ footer {
   }
 
   .hero img {
-    height: 25.5rem;
-    width: 25rem;
+    margin-top: 7rem;
+    height: 15rem;
+    width: 18rem;
   }
 
   .bio {
