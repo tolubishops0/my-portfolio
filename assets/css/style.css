@@ -85,7 +85,7 @@ nav a:hover {
 
 nav ul {
   display: flex;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .burger-menu {
@@ -102,16 +102,17 @@ nav ul {
   display: flex;
   align-items: center;
   justify-items: center;
-  text-align: justify;
-  gap: 4rem;
+  text-align: center;
+  padding: 0 6%;
+  gap: 10%;
   margin: auto;
   max-width: 80rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .hero img {
-  width: 40rem;
-  border-radius: 60%;
+  width: 30rem;
+  border-radius: 50%;
 }
 
 .bio {
@@ -119,11 +120,10 @@ nav ul {
 }
 
 .bio {
-  width: 40rem;
-  padding: 0.63rem;
+  width: 35rem;
+  padding: 1rem;
   border-radius: 6px;
   box-shadow: 0px 2px 25px 2px var(--primary-color);
-  width: 50.5rem;
 }
 
 .bio h2 {
@@ -234,24 +234,17 @@ footer {
 /* media query */
 
 @media screen and (max-width: 720px) {
-  nav {
-    padding: 1.5rem 1rem;
-  }
-
   nav ul {
+    padding: 10% 5% 10% 5%;
     position: fixed;
-    background: transparent;
+    background-color: var(--bg-color);
     flex-direction: column;
-    top: 120px;
-    left: 10%;
-    width: 80%;
-    text-align: center;
-    transform: translateX(-120%);
+    top: 15%;
+    left: 0;
+    width: 30%;
+    text-align: left;
+    transform: translateX(-150%);
     transition: transform 0.5s ease-in;
-  }
-
-  nav ul li {
-    margin: 1px;
   }
 
   .burger-menu {
@@ -270,8 +263,8 @@ footer {
 
   .hero img {
     margin-top: 7rem;
-    height: 15rem;
-    width: 15rem;
+    height: auto;
+    width: 12rem;
   }
 
   .bio {
@@ -299,9 +292,20 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
+  nav ul {
+    top: 8%;
+    width: 30%;
+    padding: 10% 5% 10% 5%;
+  }
+  nav {
+    align-items: center;
+  }
+  nav > h1 {
+    font-size: large;
+  }
   .hero img {
-    height: 20rem;
-    width: 23rem;
+    height: auto;
+    width: 12rem;
   }
 
   .bio {
